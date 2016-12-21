@@ -1,4 +1,4 @@
-## Restore sql file for MariaDB
+## Restore sql file to MariaDB
 .
 ```sh
 $ docker run -v /you/sql/directory:/home/db -e DB_HOST={MARIADB-SERVER-IP} -e DB_USER={MARIA-DB-USER} -e DB_PASS={MARIA-DB-PASS} -e DB_NAME={DBNAME} restore
